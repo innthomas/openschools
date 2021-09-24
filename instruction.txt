@@ -1,0 +1,3 @@
+Web Task: Build a startup website of your choice using Bootstrap.
+Make it responsive across all the devices. It should have a landing page, about us page, services page, and contact us page. Your pages should be linked.
+
