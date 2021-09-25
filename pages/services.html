@@ -22,9 +22,44 @@
         <title>Frontend Bootcamp</title>
       </head>
 <body>
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand">OpenSchool Bootcamp</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navmenu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">What You'll Learn</a>
+          </li>
+          <li class="nav-item">
+            <a href="about-us.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="instructors.html" class="nav-link">Instructors</a>
+          </li>
+          <li class="nav-item">
+              <a href="contact-us.html" class="nav-link">Contact Us</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
      <!-- Boxes -->
      <section class="p-5">
-        <div class="container">
+        <div class="container pt-lg-5">
           <div class="row text-center g-4">
             <div class="col-md">
               <div class="card bg-dark text-light">
@@ -80,7 +115,7 @@
         <div class="container">
           <div class="row align-items-center justify-content-between">
             <div class="col-md">
-              <img src="img/fundamentals.svg" class="img-fluid" alt="" />
+              <img src="../img/fundamentals.svg" class="img-fluid" alt="" />
             </div>
             <div class="col-md p-5">
               <h2>Learn The Fundamentals</h2>
@@ -122,10 +157,20 @@
               </a>
             </div>
             <div class="col-md">
-              <img src="img/react.svg" class="img-fluid" alt="" />
+              <img src="../img/react.svg" class="img-fluid" alt="" />
             </div>
           </div>
         </div>
       </section>
+       <!-- Footer -->
+      <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+          <p class="lead">Copyright &copy; 2021 OpenSchool Bootcamp</p>
+  
+          <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1"></i>
+          </a>
+        </div>
+      </footer>
 </body>
 </html>
